@@ -1,0 +1,347 @@
+/* #region illustation  */
+.penguin {
+
+  /* Only change code below this line */
+  --penguin-skin: black;
+  --penguin-belly: gray;
+  --penguin-beak: yellow;
+  /* Only change code above this line */
+
+  position: absolute;
+  margin: auto;
+  display: block;
+  margin-top: 5%;
+  width: 300px;
+  height: 300px;
+  bottom: 10px;
+  right: 150px;
+  z-index: 3;
+}
+
+.penguin-top {
+  top: 10%;
+  left: 25%;
+  background: var(--penguin-skin, gray);
+  width: 50%;
+  height: 45%;
+  border-radius: 70% 70% 60% 60%;
+}
+
+.penguin-bottom {
+  top: 40%;
+  left: 23.5%;
+  background: var(--penguin-skin, gray);
+  width: 53%;
+  height: 45%;
+  border-radius: 70% 70% 100% 100%;
+}
+
+.right-hand {
+  top: 0%;
+  left: -5%;
+  background: var(--penguin-skin, gray);
+  width: 30%;
+  height: 60%;
+  border-radius: 30% 30% 120% 30%;
+  transform: rotate(45deg);
+  /* z-index: -1; */
+}
+
+.left-hand {
+  top: 0%;
+  left: 75%;
+  background: var(--penguin-skin, gray);
+  width: 30%;
+  height: 60%;
+  border-radius: 30% 30% 30% 120%;
+  transform: rotate(-45deg);
+  /* z-index: -1; */
+}
+
+.right-cheek {
+  top: 15%;
+  left: 35%;
+  background: var(--penguin-belly, white);
+  width: 60%;
+  height: 70%;
+  border-radius: 70% 70% 60% 60%;
+}
+
+.left-cheek {
+  top: 15%;
+  left: 5%;
+  background: var(--penguin-belly, white);
+  width: 60%;
+  height: 70%;
+  border-radius: 70% 70% 60% 60%;
+}
+
+.belly {
+  top: 60%;
+  left: 2.5%;
+  background: var(--penguin-belly, white);
+  width: 95%;
+  height: 100%;
+  border-radius: 120% 120% 100% 100%;
+}
+
+.right-feet {
+  top: 85%;
+  left: 60%;
+  background: var(--penguin-beak, orange);
+  width: 15%;
+  height: 30%;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(-80deg);
+  z-index: -2;
+}
+
+.left-feet {
+  top: 85%;
+  left: 25%;
+  background: var(--penguin-beak, orange);
+  width: 15%;
+  height: 30%;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(80deg);
+  z-index: -2;
+}
+
+.right-eye {
+  top: 45%;
+  left: 60%;
+  background: black;
+  width: 15%;
+  height: 17%;
+  border-radius: 50%;
+}
+
+.left-eye {
+  top: 45%;
+  left: 25%;
+  background: black;
+  width: 15%;
+  height: 17%;
+  border-radius: 50%;
+}
+
+.sparkle {
+  top: 25%;
+  left: 15%;
+  background: white;
+  width: 35%;
+  height: 35%;
+  border-radius: 50%;
+}
+
+.blush-right {
+  top: 65%;
+  left: 15%;
+  background: pink;
+  width: 15%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+.blush-left {
+  top: 65%;
+  left: 70%;
+  background: pink;
+  width: 15%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+.beak-top {
+  top: 60%;
+  left: 40%;
+  background: var(--penguin-beak, orange);
+  width: 20%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+.beak-bottom {
+  top: 65%;
+  left: 42%;
+  background: var(--penguin-beak, orange);
+  width: 16%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+.penguin * {
+  position: absolute;
+}
+/* #endregion  */
+body {
+  margin: 0;
+  text-align: center;
+  /* background-color:#6b3116; */
+
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: #e8f800;
+  line-height: 2;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #00ff15;
+}
+.gifka{
+  width: 200px;
+  position: absolute;
+  left: 76%;
+  bottom: 40px;
+}
+h3 {
+  color: #ff01c0;
+  text-decoration: none;
+}
+
+a {
+  margin: 10px 20px;
+  color: #ff01c0;
+  text-decoration: none;
+}
+.name{
+  font-family: Festive, Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  margin: 10px auto 0 auto;
+}
+.ground{
+  width: 100%;
+  height: 40px;
+  margin: 0 0 0 0;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  right: 0;
+}
+.header {
+  background-color:  #C355F5;
+  position: relative;
+  padding: 10px 0 0 0;
+  /* margin-bottom: 0; */
+}
+.my-description{
+  margin-top: 50px;
+  font-family: sans-serif;
+}
+.pro {
+  text-decoration: underline;
+  font-family: Lobster, sans-serif;
+}
+.under-name {
+  font-size: 1.9rem;
+}
+.top-cloud {
+  position: relative;
+  left: 200px;
+}
+.bottom-cloud {
+  position: absolute;
+  top: 470px;
+  left: 18%; 
+}
+.round-photo{
+  border-radius: 100%;
+  height: 200px;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  border-color: darkgray;
+  width: 10%;
+  clear: left;
+  margin: 20px auto;
+}
+p{
+  line-height: 2;
+  color: white;
+  margin-bottom: 5px;
+}
+.skill-row{
+  width: 50%;
+  margin: 50px auto;
+
+  text-align: left;
+}
+.skill-img{
+  /* width: 25%; */
+  height: 170px;
+  float: left;
+  margin-right: 20px;
+}
+.skill-img-left{
+  /* width: 25%; */
+  height: 170px;
+  float: right;
+}
+.contact-p{
+  line-height: 2;
+  width: 40%;
+  margin: 50px auto;
+}
+.intro {
+  width: 40%;
+  margin: auto;
+}
+.btn {
+  background: #f700ff;
+  background-image: -webkit-linear-gradient(top, #f700ff, #295069);
+  background-image: -moz-linear-gradient(top, #f700ff, #295069);
+  background-image: -ms-linear-gradient(top, #f700ff, #295069);
+  background-image: -o-linear-gradient(top, #f700ff, #295069);
+  background-image: linear-gradient(to bottom, #f700ff, #295069);
+  -webkit-border-radius: 16;
+  -moz-border-radius: 16;
+  border-radius: 16px;
+  text-shadow: 1px 1px 3px #fbff00;
+  font-family: Georgia;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0af71d;
+  background-image: -webkit-linear-gradient(top, #0af71d, #ff002f);
+  background-image: -moz-linear-gradient(top, #0af71d, #ff002f);
+  background-image: -ms-linear-gradient(top, #0af71d, #ff002f);
+  background-image: -o-linear-gradient(top, #0af71d, #ff002f);
+  background-image: linear-gradient(to bottom, #0af71d, #ff002f);
+  text-decoration: none;
+}
+.middle-container{
+  /* background-image: url("https://thedeepestsite.com/media/textures/40.jpg"); */
+  background-image: url("https://static8.depositphotos.com/1070439/1049/v/450/depositphotos_10491194-stock-illustration-seamless-cracked-ground-background-pattern.jpg?forcejpeg=true");
+  /* background-repeat: ; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.bottom-container {
+  margin-top: 30px;
+}
+.footer{
+  padding: 20px 0;
+  background-image: url("https://thedeepestsite.com/media/textures/40.jpg");
+  position: relative; 
+
+}
+.opacity-back{
+  width: 70%;
+  background-color:rgba(0, 0, 0, 0.7);
+  margin: 0 auto;
+  border-radius: 20%;
+}
+
+
+/* .underground{
+  background-repeat: repeat;
+  background-size: cover;
+} */
