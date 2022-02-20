@@ -206,6 +206,9 @@ a {
   color: #ff01c0;
   text-decoration: none;
 }
+a:hover {
+color: red;
+}
 .name{
   font-family: Festive, Arial, Helvetica, sans-serif;
   font-size: 70px;
